@@ -1,0 +1,57 @@
+body {
+	font-size: 25px;
+  font-family: rockOn;
+   background: linear-gradient(to right, #373B44, #73C8A9);
+
+	 }
+
+
+}
+
+#jukebox {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#jukebox .track{
+	text-align: center;
+}
+
+#jukebox .controls{
+		text-align: center;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+#current {
+	text-align: center;
+}
+
+#jukebox.fa {
+	margin: 0 10px;
+}
+
+#jukebox.h3{
+	text-align: center;
+}
+h1	{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+.fa {
+	cursor:crosshair;
+  color: black;
+/*+/- cursor: url('path-to-image.png'), auto;*/
+}
+
+i{
+	padding left: : 20px;
+	padding-right: 20px;
+}
+
+@font-face {
+    font-family:"rockOn";
+    src: url("Fonts/font1.ttf");
+}
